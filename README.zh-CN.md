@@ -28,26 +28,13 @@ DSH 自带的「归档」只是把会话从侧边栏收起来 —— 磁盘上�
 
 ## 安装
 
-走 DSH 自带的插件管理，它接受一个安装 spec：git 主机简写、仓库 URL，或者本地绝对路径。
-
-spec：
+在 DSH 的 **设置 → 插件 → 安装** 里粘贴：
 
 ```
 github:Seelerc/dsh-plugin-delete-archived
 ```
 
-等价写法：
-
-```
-https://github.com/Seelerc/dsh-plugin-delete-archived
-```
-
-把 spec 交给 DSH：
-
-- **在应用里**：设置 → 插件 → 安装入口，粘贴 spec。
-- **在会话里**：让 Agent 装 —— `plugin_manager`，`action: "install_bundle"`，`target: "github:Seelerc/dsh-plugin-delete-archived"`。
-
-可以用 `#` 钉住某个 ref，例如 `github:Seelerc/dsh-plugin-delete-archived#v1.0.0`。
+也可以直接让 Agent 装 —— `plugin_manager`，`action: "install_bundle"`，`target: "github:Seelerc/dsh-plugin-delete-archived"`。
 
 ---
 

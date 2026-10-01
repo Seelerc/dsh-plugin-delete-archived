@@ -28,26 +28,13 @@ Archived sessions gain a **Delete Permanently** entry in their "⋯" menu.
 
 ## Install
 
-DSH's built-in plugin manager takes an install spec — a git host shorthand, a repository URL, or a local absolute path.
-
-GitHub shorthand:
+Paste this into DSH's **Settings → Plugins → install** entry:
 
 ```
 github:Seelerc/dsh-plugin-delete-archived
 ```
 
-Equivalent:
-
-```
-https://github.com/Seelerc/dsh-plugin-delete-archived
-```
-
-Hand the spec to DSH:
-
-- **In the app**: Settings → Plugins → install entry, paste the spec.
-- **In a session**: ask the agent to install it — `plugin_manager`, `action: "install_bundle"`, `target: "github:Seelerc/dsh-plugin-delete-archived"`.
-
-Pin a specific ref with `#`, e.g. `github:Seelerc/dsh-plugin-delete-archived#v1.0.0`.
+Or just ask the agent to install it — `plugin_manager`, `action: "install_bundle"`, `target: "github:Seelerc/dsh-plugin-delete-archived"`.
 
 ---
 
