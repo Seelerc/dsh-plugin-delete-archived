@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Archived Sessions Manager",
+    "description": "Permanently and securely delete archived DSH sessions to free disk space."
+  },
+  "menu": {
+    "deleteArchived": "Delete permanently",
+    "deleteArchivedConfirm": "Are you sure you want to permanently delete archived session \"{title}\"?\n\nNote: This will permanently erase the session history and disk logs and cannot be undone!"
+  },
+  "settings": {
+    "sectionTitle": "Archived Sessions Management",
+    "desc": "Manage and permanently clean up archived sessions. Deleting them frees disk space and cannot be undone.",
+    "refresh": "Refresh",
+    "deleteSelected": "Delete Selected ({count})",
+    "deleteSelectedConfirm": "Are you sure you want to permanently delete the {count} selected archived sessions?\nAll corresponding disk history folders will be permanently removed!",
+    "restoreSelected": "Restore",
+    "totalCount": "Total {count} archived session(s)",
+    "loading": "Loading archived sessions...",
+    "empty": "No archived sessions found.",
+    "colTitle": "Session Title / Disk Directory",
+    "colWorkspace": "Workspace",
+    "colDate": "Archived At",
+    "colActions": "Actions",
+    "actionMenu": "Action Menu",
+    "restoreSession": "Restore Session",
+    "deleteSession": "Delete Permanently",
+    "deleteSingleConfirm": "Are you sure you want to permanently delete archived session \"{title}\"?\n\n📁 Disk directory to be erased:\n{path}\n\nWarning: This action cannot be undone!",
+    "unassigned": "Unassigned",
+    "restoreSuccess": "Session \"{title}\" restored to active workspace list",
+    "restoreBatchSuccess": "Successfully restored {count} session(s) to workspace",
+    "deleteSuccess": "Session \"{title}\" permanently deleted",
+    "deleteBatchSuccess": "Successfully deleted {count} session(s)",
+    "requestError": "Request error: {error}"
+  }
+}

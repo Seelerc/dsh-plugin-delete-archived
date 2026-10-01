@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "已归档会话管理",
+    "description": "彻底安全删除已归档会话记录及磁盘历史日志"
+  },
+  "menu": {
+    "deleteArchived": "彻底删除会话",
+    "deleteArchivedConfirm": "确定要彻底删除已归档会话 “{title}” 吗？\n\n注意：此操作将永久抹除磁盘上的对话记录与日志文件，不可恢复！"
+  },
+  "settings": {
+    "sectionTitle": "已归档会话管理",
+    "desc": "管理并安全已归档的会话记录。彻底删除后将释放物理磁盘空间且不可撤销。",
+    "refresh": "刷新",
+    "deleteSelected": "彻底删除 ({count})",
+    "deleteSelectedConfirm": "确定要彻底删除所选的 {count} 个已归档会话吗？\n对应的所有磁盘历史文件夹将被永久清除，无法撤销！",
+    "restoreSelected": "恢复",
+    "totalCount": "共 {count} 个已归档会话",
+    "loading": "正在加载已归档列表...",
+    "empty": "当前没有已归档的会话记录。",
+    "colTitle": "会话标题 / 磁盘目录标注",
+    "colWorkspace": "所属工作区",
+    "colDate": "归档时间",
+    "colActions": "操作",
+    "actionMenu": "操作菜单",
+    "restoreSession": "恢复会话",
+    "deleteSession": "彻底删除",
+    "deleteSingleConfirm": "确定要彻底删除已归档会话 “{title}” 吗？\n\n📁 将被物理抹除的磁盘目录：\n{path}\n\n警告：此操作不可撤销！",
+    "unassigned": "未分组",
+    "restoreSuccess": "会话 “{title}” 已恢复到工作区活跃列表",
+    "restoreBatchSuccess": "已成功恢复 {count} 个会话到工作区",
+    "deleteSuccess": "会话 “{title}” 已成功彻底删除",
+    "deleteBatchSuccess": "已彻底删除 {count} 个会话",
+    "requestError": "请求出错: {error}"
+  }
+}

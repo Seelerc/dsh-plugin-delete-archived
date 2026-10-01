@@ -1,0 +1,3 @@
+- insert:
+    - id: delete-archived
+      name: dsh-plugin-delete-archived
