@@ -8,6 +8,8 @@ DSH 自带的「归档」只是把会话从侧边栏收起来 —— 磁盘上�
 
 [English](README.md) | **简体中文**
 
+![演示](assets/demo.gif)
+
 ---
 
 ## 功能
