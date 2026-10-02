@@ -8,8 +8,6 @@ DSH's built-in *archive* only hides a session from the sidebar — its history a
 
 **English** | [简体中文](README.zh-CN.md)
 
-![demo](assets/demo.gif)
-
 ---
 
 ## Features
@@ -21,6 +19,8 @@ Lists every archived session with its disk directory, size, archive time and wor
 **Sidebar session menu**
 
 Archived sessions gain a **Delete Permanently** entry in their "⋯" menu.
+
+![demo](assets/demo.gif)
 
 **Agent tool**
 
