@@ -16,6 +16,8 @@ DSH's built-in *archive* only hides a session from the sidebar — its history a
 
 Lists every archived session with its disk directory, size, archive time and workspace. Rows are selectable, with batch **Restore** and **Delete Permanently**. Sorted oldest first by default, and every destructive action asks for confirmation first.
 
+![demo](assets/demo-settings.gif)
+
 **Sidebar session menu**
 
 Archived sessions gain a **Delete Permanently** entry in their "⋯" menu.
