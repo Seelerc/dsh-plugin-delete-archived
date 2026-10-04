@@ -40,6 +40,8 @@ github:Seelerc/dsh-plugin-delete-archived
 
 也可以直接让 Agent 装 —— `plugin_manager`，`action: "install_bundle"`，`target: "github:Seelerc/dsh-plugin-delete-archived"`。
 
+> 插件管理底层调用 `pnpm`。桌面版 App 会注入自带的 pnpm，但独立运行 CLI profile 时会去系统 `PATH` 里找。如果安装报 `'pnpm' 不是内部或外部命令`，执行 `npm i -g pnpm`（或 `corepack enable pnpm`）后重试即可。
+
 ---
 
 ## HTTP API
