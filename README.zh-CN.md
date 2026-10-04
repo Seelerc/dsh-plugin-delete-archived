@@ -40,7 +40,12 @@ github:Seelerc/dsh-plugin-delete-archived
 
 也可以直接让 Agent 装 —— `plugin_manager`，`action: "install_bundle"`，`target: "github:Seelerc/dsh-plugin-delete-archived"`。
 
-> 插件管理底层调用 `pnpm`。桌面版 App 会注入自带的 pnpm，但独立运行 CLI profile 时会去系统 `PATH` 里找。如果安装报 `'pnpm' 不是内部或外部命令`，执行 `npm i -g pnpm`（或 `corepack enable pnpm`）后重试即可。
+**前置依赖**
+
+`github:` 地址的解析依赖 **pnpm** 和 **git**。桌面版 App 自带 pnpm，但独立运行 CLI profile 时两者都要在系统 `PATH` 里。
+
+- 缺 `pnpm` → `npm i -g pnpm`（或 `corepack enable pnpm`）
+- 缺 `git` → 安装 Git，例如 `winget install Git.Git`；pnpm 需要先用 `git ls-remote` 解析 `github:` 地址才会开始下载
 
 ---
 

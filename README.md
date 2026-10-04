@@ -40,7 +40,12 @@ github:Seelerc/dsh-plugin-delete-archived
 
 Or just ask the agent to install it — `plugin_manager`, `action: "install_bundle"`, `target: "github:Seelerc/dsh-plugin-delete-archived"`.
 
-> The plugin manager shells out to `pnpm`. The desktop app injects its own bundled copy, but a standalone CLI profile expects `pnpm` on your `PATH`. If the install fails with `'pnpm' is not recognized`, run `npm i -g pnpm` (or `corepack enable pnpm`) and retry.
+**Prerequisites**
+
+A `github:` spec is resolved with **pnpm** and **git**. The desktop app injects its own bundled pnpm, but a standalone CLI profile looks for both on your `PATH`.
+
+- Missing `pnpm` → `npm i -g pnpm` (or `corepack enable pnpm`)
+- Missing `git` → install Git, e.g. `winget install Git.Git`; pnpm runs `git ls-remote` to resolve a `github:` address before downloading anything
 
 ---
 
