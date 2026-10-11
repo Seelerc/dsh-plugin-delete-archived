@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-delete-archived",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "彻底删除 DSH 已经归档过的会话记录和磁盘日志",
   "type": "module",

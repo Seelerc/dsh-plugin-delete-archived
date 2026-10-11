@@ -5,7 +5,7 @@
   },
   "menu": {
     "deleteArchived": "Delete permanently",
-    "deleteArchivedConfirm": "Are you sure you want to permanently delete archived session \"{title}\"?\n\nNote: This will permanently erase the session history and disk logs and cannot be undone!"
+    "deleteArchivedConfirm": "Are you sure you want to permanently delete session \"{title}\"?\n\nNote: This will permanently erase the session history and disk logs and cannot be undone!"
   },
   "settings": {
     "sectionTitle": "Archived Sessions Management",

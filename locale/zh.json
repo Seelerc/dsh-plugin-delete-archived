@@ -5,7 +5,7 @@
   },
   "menu": {
     "deleteArchived": "彻底删除会话",
-    "deleteArchivedConfirm": "确定要彻底删除已归档会话 “{title}” 吗？\n\n注意：此操作将永久抹除磁盘上的对话记录与日志文件，不可恢复！"
+    "deleteArchivedConfirm": "确定要彻底删除会话 “{title}” 吗？\n\n注意：此操作将永久抹除磁盘上的对话记录与日志文件，不可恢复！"
   },
   "settings": {
     "sectionTitle": "已归档会话管理",
