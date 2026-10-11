@@ -20,15 +20,8 @@
     "colTitle": "Session Title / Disk Directory",
     "colWorkspace": "Workspace",
     "colDate": "Archived At",
-    "colActions": "Actions",
-    "actionMenu": "Action Menu",
-    "restoreSession": "Restore Session",
-    "deleteSession": "Delete Permanently",
-    "deleteSingleConfirm": "Are you sure you want to permanently delete archived session \"{title}\"?\n\n📁 Disk directory to be erased:\n{path}\n\nWarning: This action cannot be undone!",
     "unassigned": "Unassigned",
-    "restoreSuccess": "Session \"{title}\" restored to active workspace list",
     "restoreBatchSuccess": "Successfully restored {count} session(s) to workspace",
-    "deleteSuccess": "Session \"{title}\" permanently deleted",
     "deleteBatchSuccess": "Successfully deleted {count} session(s)",
     "requestError": "Request error: {error}"
   }
