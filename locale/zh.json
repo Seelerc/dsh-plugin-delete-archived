@@ -1,28 +1,62 @@
 {
   "meta": {
-    "title": "已归档会话管理",
-    "description": "彻底安全删除已归档会话记录及磁盘历史日志"
+    "title": "已归档会话",
+    "description": "彻底删除已归档会话及磁盘日志"
   },
   "menu": {
     "deleteArchived": "彻底删除会话",
-    "deleteArchivedConfirm": "确定要彻底删除会话 “{title}” 吗？\n\n注意：此操作将永久抹除磁盘上的对话记录与日志文件，不可恢复！"
+    "deleteArchivedConfirm": "确定要彻底删除会话 “{title}” 吗？此操作不可恢复。"
   },
   "settings": {
-    "sectionTitle": "已归档会话管理",
-    "desc": "管理并安全清理已归档的会话记录。彻底删除后将释放物理磁盘空间且不可撤销。",
+    "sectionTitle": "已归档会话",
+    "desc": "彻底删除已归档会话及磁盘日志，不可撤销。",
     "refresh": "刷新",
-    "deleteSelected": "彻底删除 ({count})",
-    "deleteSelectedConfirm": "确定要彻底删除所选的 {count} 个已归档会话吗？\n对应的所有磁盘历史文件夹将被永久清除，无法撤销！",
+    "deleteSelected": "删除 ({count})",
+    "deleteSelectedConfirm": "确定要彻底删除所选的 {count} 个已归档会话吗？此操作不可恢复。",
     "restoreSelected": "恢复",
-    "totalCount": "共 {count} 个已归档会话",
-    "loading": "正在加载已归档列表...",
-    "empty": "当前没有已归档的会话记录。",
-    "colTitle": "会话标题 / 磁盘目录标注",
-    "colWorkspace": "所属工作区",
+    "totalCount": "共 {count} 个",
+    "loading": "加载中...",
+    "empty": "没有已归档的会话。",
+    "colTitle": "会话 / 目录",
+    "colSubagent": "子代理",
+    "colWorkspace": "工作区",
     "colDate": "归档时间",
+    "openFolder": "在文件管理器中打开",
+    "badgeOwnHint": "本会话派生 {count} 个（删除时默认勾选）",
+    "badgeSharedHint": "同家族其他对话派生 {count} 个（默认保留）",
     "unassigned": "未分组",
-    "restoreBatchSuccess": "已成功恢复 {count} 个会话到工作区",
-    "deleteBatchSuccess": "已彻底删除 {count} 个会话",
-    "requestError": "请求出错: {error}"
+    "restoreBatchSuccess": "已恢复 {count} 个会话",
+    "deleteBatchSuccess": "已删除 {count} 个会话",
+    "deleteBatchSuccessWithSub": "已删除 {count} 个会话，并连同删除了 {sub} 个子代理",
+    "requestError": "出错: {error}"
+  },
+  "confirm": {
+    "title": "彻底删除会话",
+    "titleBatch": "彻底删除 {count} 个会话",
+    "desc": "此操作不可恢复。",
+    "descNamed": "将彻底删除会话「{title}」，此操作不可恢复。",
+    "descBatch": "将彻底删除所选的 {count} 个会话，此操作不可恢复。",
+    "target": "目标会话",
+    "loading": "检查子代理...",
+    "subagentTitle": "一并删除的子代理",
+    "targetsLabel": "涉及会话",
+    "selectAllAll": "全选全部",
+    "selectAllHint": "选中所有家族的子代理",
+    "selectNoneHint": "清空所有选择",
+    "selectNone": "全不选",
+    "groupSelf": "本会话派生",
+    "relFamilyBranches": "含 {count} 个分支",
+    "relSource": "源对话",
+    "relSibling": "兄弟分支",
+    "groupCountHint": "{count} 个子代理",
+    "toggleBlockHint": "全选/全不选这一段对话：{title}",
+    "blockCountHint": "{count} 个子代理",
+    "blockSelected": "已选 {selected}/{total}",
+    "toggleGroupHint": "全选/全不选：{title}",
+    "selectedSummary": "已选 {count} 个 · {size}",
+    "depth": "第 {depth} 层",
+    "cancel": "取消",
+    "action": "删除",
+    "deleting": "删除中..."
   }
 }

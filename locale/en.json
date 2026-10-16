@@ -1,28 +1,62 @@
 {
   "meta": {
-    "title": "Archived Sessions Manager",
-    "description": "Permanently and securely delete archived DSH sessions to free disk space."
+    "title": "Archived Sessions",
+    "description": "Permanently delete archived sessions and their disk logs"
   },
   "menu": {
-    "deleteArchived": "Delete permanently",
-    "deleteArchivedConfirm": "Are you sure you want to permanently delete session \"{title}\"?\n\nNote: This will permanently erase the session history and disk logs and cannot be undone!"
+    "deleteArchived": "Delete Permanently",
+    "deleteArchivedConfirm": "Are you sure you want to permanently delete session \"{title}\"? This cannot be undone."
   },
   "settings": {
-    "sectionTitle": "Archived Sessions Management",
-    "desc": "Manage and permanently clean up archived sessions. Deleting them frees disk space and cannot be undone.",
+    "sectionTitle": "Archived Sessions",
+    "desc": "Permanently delete archived sessions and their disk logs. This cannot be undone.",
     "refresh": "Refresh",
-    "deleteSelected": "Delete Selected ({count})",
-    "deleteSelectedConfirm": "Are you sure you want to permanently delete the {count} selected archived sessions?\nAll corresponding disk history folders will be permanently removed!",
+    "deleteSelected": "Delete ({count})",
+    "deleteSelectedConfirm": "Are you sure you want to permanently delete the {count} selected archived sessions? This cannot be undone.",
     "restoreSelected": "Restore",
-    "totalCount": "Total {count} archived session(s)",
-    "loading": "Loading archived sessions...",
-    "empty": "No archived sessions found.",
-    "colTitle": "Session Title / Disk Directory",
+    "totalCount": "{count} total",
+    "loading": "Loading...",
+    "empty": "No archived sessions.",
+    "colTitle": "Session / Directory",
+    "colSubagent": "Subagents",
     "colWorkspace": "Workspace",
     "colDate": "Archived At",
+    "openFolder": "Reveal in file manager",
+    "badgeOwnHint": "Derived by this session: {count} (selected by default on delete)",
+    "badgeSharedHint": "Derived by other conversations in the same family: {count} (kept by default)",
     "unassigned": "Unassigned",
-    "restoreBatchSuccess": "Successfully restored {count} session(s) to workspace",
-    "deleteBatchSuccess": "Successfully deleted {count} session(s)",
-    "requestError": "Request error: {error}"
+    "restoreBatchSuccess": "Restored {count} session(s)",
+    "deleteBatchSuccess": "Deleted {count} session(s)",
+    "deleteBatchSuccessWithSub": "Deleted {count} session(s) and {sub} subagent(s)",
+    "requestError": "Error: {error}"
+  },
+  "confirm": {
+    "title": "Delete Session Permanently",
+    "titleBatch": "Delete {count} Sessions Permanently",
+    "desc": "This cannot be undone.",
+    "descNamed": "This permanently deletes \"{title}\". It cannot be undone.",
+    "descBatch": "This permanently deletes the {count} selected sessions. It cannot be undone.",
+    "target": "Target session",
+    "loading": "Checking subagents...",
+    "subagentTitle": "Subagents to delete",
+    "targetsLabel": "Sessions",
+    "selectAllAll": "Select all",
+    "selectAllHint": "Select subagents from every conversation",
+    "selectNoneHint": "Clear every selection",
+    "selectNone": "Select none",
+    "groupSelf": "Derived by this session",
+    "relFamilyBranches": "{count} branches",
+    "relSource": "source",
+    "relSibling": "sibling",
+    "groupCountHint": "{count} subagent(s)",
+    "toggleBlockHint": "Select/deselect this conversation: {title}",
+    "blockCountHint": "{count} subagent(s)",
+    "blockSelected": "{selected}/{total} selected",
+    "toggleGroupHint": "Select/deselect all: {title}",
+    "selectedSummary": "{count} selected · {size}",
+    "depth": "depth {depth}",
+    "cancel": "Cancel",
+    "action": "Delete",
+    "deleting": "Deleting..."
   }
 }
